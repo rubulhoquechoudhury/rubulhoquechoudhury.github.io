@@ -1,6 +1,7 @@
 # Rubul Hoque Choudhury
 
 Hello, myself rubul. Current i am persuing B.Tech in Electronics and Telecommunication.
+<p align="center"> <img src="https://komarev.com/ghpvc/?username=rubulhoquechoudhury&label=Profile%20views&color=0e75b6&style=flat" alt="rhc" /> </p>
 ## Contact Information
 - **Email:** john.doe@example.com
 - **Phone:** (123) 456-7890
