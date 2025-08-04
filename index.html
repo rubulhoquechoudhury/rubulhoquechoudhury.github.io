@@ -4,42 +4,405 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="I'm rubul Hoque Choudhury, a passionate engineer.">
-    <meta name="keywords" content="engineer, software, developer, b.tech">
-    <meta name="google-site-verification" content="HYwiw7sQunyB3dOpSOi8Oo-qVWYH3gp8dSxI_NqMT8c" />
+    <meta name="description"
+        content="Rubul Hoque Choudhury - Electronics Engineer & Full Stack Developer. Creating modern, responsive web applications with clean code and beautiful design.">
+    <meta name="keywords"
+        content="Rubul Hoque Choudhury, Full Stack Developer, Electronics Engineer, Web Developer, React, Node.js, JavaScript, Portfolio">
+    <meta name="author" content="Rubul Hoque Choudhury">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="English">
+    <meta name="theme-color" content="#2563eb">
+
+    <!-- Open Graph Meta Tags for Social Media -->
+    <meta property="og:title" content="Rubul Hoque Choudhury">
+    <meta property="og:description" content="Electronics Engineer & Full Stack Developer">
+    <meta property="og:image" content="rubulhoquechoudhury.png">
+    <meta property="og:url" content="https://rubulhoquechoudhury.github.io">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Rubul Hoque Choudhury">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Rubul Hoque Choudhury">
+    <meta name="twitter:description" content="Electronics Engineer & Full Stack Developer">
+    <meta name="twitter:image" content="rubulhoquechoudhury.png">
+
     <title>Rubul Hoque Choudhury</title>
-    <link rel="stylesheet" href="index.css">
-    <link rel="icon" href="assets/rubul_logo.webp">
-    <script src="https://kit.fontawesome.com/1f0d83d9cc.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="rubulhoquechoudhury2.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 
 <body>
-    <nav>
-        <ul>
-            <li><a href="#about">ABOUT</a></li>
-            <li><a href="https://drive.google.com/drive/folders/1lHuZ_1tfh_PtlcoxtI_OhfqtmK4Yzm3E?usp=drive_link">RESUME</a></li>
-            <li><a href="mailto:rubulhoquechoudhury8@gmail.com">EMAIL</a></li>
-        </ul>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">
+                    <img src="rubulhoquechoudhury.png" alt="Logo" class="logo-img">
+                </a>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#timeline" class="nav-link">Timeline</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
     </nav>
-    <h1>Rubul Hoque Choudhury</h1>
-    <div class="links">
-        <ul>
-            <li><a href="https://github.com/rubulhoquechoudhury"><i class="fab fa-github" aria-hidden="true"></i></a>
-            </li>
-            <li><a href="https://www.linkedin.com/in/rubulhoquechoudhury/"><i class="fab fa-linkedin"
-                        aria-hidden="true"></i></a></li>
-            <li><a href="https://x.com/RubulHoqueChoud"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
-            <li><a href="https://www.facebook.com/rubulhoquechoudhury1/"><i class="fab fa-facebook"
-                        aria-hidden="true"></i></a></li>
-            <li><a href="https://www.instagram.com/rubulhoquechoudhury/"><i class="fab fa-instagram"
-                        aria-hidden="true"></i></a></li>
-        </ul>
-    </div>
-    <div id="about">
-        <p>
-            Hello, myself rubul. Current i am persuing B.Tech in Electronics and Telecommunication.
-        </p>
-    </div>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <p class="hero-greeting">Hello, I'm</p>
+                    <h1 class="hero-name">Rubul Hoque Choudhury</h1>
+                    <p class="hero-title">Electronics Engineer & Full Stack Developer</p>
+                    <p class="hero-description">
+                        I create modern, responsive web applications & smart hardware solutions.
+                        Passionate about turning ideas into digital reality.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="projects.html" class="btn btn-primary">View My Work</a>
+                        <a href="https://dub.sh/rubul-resume" class="btn btn-secondary">View Resune</a>
+                    </div>
+                    <div class="hero-social">
+                        <a href="mailto:rubulhoquechoudhury8@gmail.com" class="social-link"><i
+                                class="fa-solid fa-envelope"></i></a>
+                        <a href="https://github.com/rubulhoquechoudhury" target="_blank" class="social-link"><i
+                                class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/rubulhoquechoudhury/" target="_blank" class="social-link"><i
+                                class="fab fa-linkedin"></i></a>
+                        <a href="https://twitter.com/rubulhoquechoud" target="_blank" class="social-link"><i
+                                class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/rubulhoquechoudhury/" target="_blank" class="social-link"><i
+                                class="fab fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/rubulhoquechoudhury1" target="_blank" class="social-link"><i
+                                class="fab fa-facebook"></i></a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="hero-img-container">
+                        <img src="rubulhoquechoudhury.png" alt="Profile Photo" class="hero-profile-img">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <!-- <p class="section-subtitle">Learn more about who I am and what I do</p> -->
+            </div>
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="about-img-container">
+                        <img src="rubulhoquechoudhury3.png" alt="About Me Photo" class="about-profile-img">
+                    </div>
+                </div>
+                <div class="about-text">
+                    <p>
+                        I'm a passionate full-stack developer with over 2 years of experience creating web applications that are both beautiful and functional.
+                    </p>
+                    <p>
+                        Currently pursuing a Bachelor's degree in Electronics and Telecommunication Engineering with a strong passion for technology and innovation. I enjoy exploring how things work — from hardware circuits to software systems — and love building solutions that solve real-world problems.
+
+Whether it's developing websites, working on electronics projects, or learning new tech stacks, I'm always eager to grow and create.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <h3>20+</h3>
+                            <p>Projects Completed</p>
+                        </div>
+                        <div class="stat">
+                            <h3>2+</h3>
+                            <p>Years Experience</p>
+                        </div>
+                        <!-- <div class="stat">
+                            <h3>25+</h3>
+                            <p>Happy Clients</p>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Timeline Section -->
+    <section id="timeline" class="timeline">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">My Journey</h2>
+                <p class="section-subtitle">Professional experience and education timeline</p>
+            </div>
+            <div class="timeline-container">
+                <!-- <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2022 - Present</div>
+                        <h3>Senior Full Stack Developer</h3>
+                        <h4>Tech Company Name</h4>
+                        <p>Led development of modern web applications using React, Node.js, and cloud technologies. Mentored junior developers and architected scalable solutions.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2020 - 2022</div>
+                        <h3>Full Stack Developer</h3>
+                        <h4>Another Company</h4>
+                        <p>Developed and maintained multiple client projects, focusing on responsive design and performance optimization. Collaborated with cross-functional teams.</p>
+                    </div>
+                </div> -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2023 - present</div>
+                        <h3>Full-stack developer & Electronics hardware designer</h3>
+                        <h4>Self-Learning & Exploring</h4>
+                        <p>Currently expanding my skills through self-directed learning and exploration. Working on
+                            personal projects that combine web development with electronics hardware design, building
+                            full-stack applications, and staying updated with the latest technologies in both software
+                            and hardware domains.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2023 - 2027</div>
+                        <h3>Bachelor's in Electronics and Telecommunication Engineering</h3>
+                        <h4>Jorhat Institute of Science and Technology</h4>
+                        <p>Studied electronics engineering with focus on digital systems and programming.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Skills & Technologies</h2>
+                <p class="section-subtitle">Technologies I work with</p>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-html5"></i>
+                    </div>
+                    <h3>Frontend</h3>
+                    <p>HTML5, CSS3, JavaScript, React, TypeScript</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <h3>Backend</h3>
+                    <p>Node.js, Python, Express.js, Django</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3>Database</h3>
+                    <p>MySQL, PostgreSQL, MongoDB, Redis, Firebase</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fa-solid fa-cloud"></i>
+                    </div>
+                    <h3>DevOps & Cloud</h3>
+                    <p>Docker, Git, CI/CD, Linux</p>
+                </div>
+                <!-- <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Mobile</h3>
+                    <p>React Native, Flutter, Progressive Web Apps</p>
+                </div> -->
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <h3>Design</h3>
+                    <p>Figma, UI/UX Design, Responsive Design</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-subtitle">Some of my recent work</p>
+                <!-- <div style="text-align: center; margin-top: 1rem;">
+                    <a href="projects.html" class="btn btn-primary">View All Projects</a>
+                </div> -->
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fa-solid fa-graduation-cap"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <!-- <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a> -->
+                                <a href="https://github.com/rubulhoquechoudhury/student-life-management-system" class="project-link" target="_blank"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Student Life Management System</h3>
+                        <p>A full-stack student management system with React, Node.js, and MongoDB integration.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">MongoDB</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-tasks"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <!-- <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a> -->
+                                <a href="https://github.com/rubulhoquechoudhury/tea-leaf-disease-detection-model" class="project-link" target="_blank"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Tea Leaf Disease Detection App</h3>
+                        <p>An application that uses machine learning to detect diseases in tea leaves.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Flask</span>
+                            <span class="tech-tag">HTML, CSS, JS</span>
+                            <span class="tech-tag">PyTorch</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Analytics Dashboard</h3>
+                        <p>A comprehensive analytics dashboard with interactive charts and data visualization.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">D3.js</span>
+                            <span class="tech-tag">Python</span>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">Let's work together on your next project</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <a href="mailto:your.email@example.com" class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <p>rubulhoquechoudhury8@gmail.com</p>
+                        </div>
+                    </a>
+                    <!-- <a href="tel:+15551234567" class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Phone</h3>
+                            <p>+1 (555) 123-4567</p>
+                        </div>
+                    </a> -->
+                    <a href="" target="_blank" class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Location</h3>
+                            <p>Assam, India</p>
+                        </div>
+                    </a>
+                </div>
+                <iframe
+                    data-tally-src="https://tally.so/embed/w84ddP?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1"
+                    loading="lazy" width="100%" height="350" frameborder="0" marginheight="0" marginwidth="0"
+                    title="Contact Form"></iframe>
+                <script>var d = document, w = "https://tally.so/widgets/embed.js", v = function () { "undefined" != typeof Tally ? Tally.loadEmbeds() : d.querySelectorAll("iframe[data-tally-src]:not([src])").forEach((function (e) { e.src = e.dataset.tallySrc })) }; if ("undefined" != typeof Tally) v(); else if (d.querySelector('script[src="' + w + '"]') == null) { var s = d.createElement("script"); s.src = w, s.onload = v, s.onerror = v, d.body.appendChild(s); }</script>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Rubul Hoque Choudhury. All rights reserved.</p>
+                <div class="footer-social">
+                    <a href="mailto:rubulhoquechoudhury8@gmail.com" class="social-link"><i
+                            class="fa-solid fa-envelope"></i></a>
+                    <a href="https://github.com/rubulhoquechoudhury" target="_blank" class="social-link"><i
+                            class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/rubulhoquechoudhury/" target="_blank" class="social-link"><i
+                            class="fab fa-linkedin"></i></a>
+                    <a href="https://twitter.com/rubulhoquechoud" target="_blank" class="social-link"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/rubulhoquechoudhury/" target="_blank" class="social-link"><i
+                            class="fab fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/rubulhoquechoudhury1" target="_blank" class="social-link"><i
+                            class="fab fa-facebook"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
