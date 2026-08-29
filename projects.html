@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="View all projects by Rubul Hoque Choudhury">
+    <title>View All Projects | Rubul Hoque Choudhury</title>
+    <link rel="icon" href="rubulhoquechoudhury2.webp">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <nav class="navbar scrolled" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html#home">
+                    <img src="rubulhoquechoudhury.webp" alt="Logo" class="logo-img">
+                </a>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="projects.html" class="nav-link active">View All Projects</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="projects projects-page">
+        <div class="container">
+            <div class="section-header">
+                <h1 class="section-title">View All Projects</h1>
+            </div>
+
+            <p id="projects-error" class="projects-error" hidden></p>
+            <div id="projects-list" class="projects-grid" aria-live="polite"></div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+            <p>&copy; <span data-footer-year></span> Rubul Hoque Choudhury. All rights reserved.</p>
+            <div class="footer-social">
+                <a href="mailto:rubulhoquechoudhury8@gmail.com" class="social-link"><i
+                    class="fa-solid fa-envelope"></i></a>
+                <a href="https://github.com/rubulhoquechoudhury" target="_blank" class="social-link"><i
+                    class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/rubulhoquechoudhury/" target="_blank" class="social-link"><i
+                    class="fab fa-linkedin"></i></a>
+                <a href="https://twitter.com/rubulhoquechoud" target="_blank" class="social-link"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/rubulhoquechoudhury/" target="_blank" class="social-link"><i
+                    class="fab fa-instagram"></i></a>
+                <a href="https://www.facebook.com/rubulhoquechoudhury1" target="_blank" class="social-link"><i
+                    class="fab fa-facebook"></i></a>
+            </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="footer-year.js"></script>
+    <script src="projects.js"></script>
+</body>
+
+</html>

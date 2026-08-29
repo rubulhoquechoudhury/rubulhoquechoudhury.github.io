@@ -27,6 +27,33 @@
     <meta name="twitter:description" content="Electronics Engineer & Full Stack Developer">
     <meta name="twitter:image" content="rubulhoquechoudhury.webp">
 
+    <!-- Structured Data for Google Search (Site Name & Person) -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Rubul Hoque Choudhury",
+        "alternateName": "Rubul Hoque Choudhury Portfolio",
+        "url": "https://rubulhoquechoudhury.github.io"
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Rubul Hoque Choudhury",
+        "url": "https://rubulhoquechoudhury.github.io",
+        "jobTitle": "Electronics Engineer & Full Stack Developer",
+        "sameAs": [
+            "https://github.com/rubulhoquechoudhury",
+            "https://www.linkedin.com/in/rubulhoquechoudhury/",
+            "https://twitter.com/rubulhoquechoud",
+            "https://www.instagram.com/rubulhoquechoudhury/",
+            "https://www.facebook.com/rubulhoquechoudhury1"
+        ]
+    }
+    </script>
+
     <title>Rubul Hoque Choudhury</title>
     <link rel="icon" href="rubulhoquechoudhury2.webp">
     <link rel="stylesheet" href="styles.css">
@@ -148,7 +175,6 @@ Whether it's developing websites, working on electronics projects, or learning n
         <div class="container">
             <div class="section-header">
                 <h2 class="section-title">My Journey</h2>
-                <p class="section-subtitle">Professional experience and education timeline</p>
             </div>
             <div class="timeline-container">
                 <!-- <div class="timeline-item">
@@ -199,7 +225,6 @@ Whether it's developing websites, working on electronics projects, or learning n
         <div class="container">
             <div class="section-header">
                 <h2 class="section-title">Skills & Technologies</h2>
-                <p class="section-subtitle">Technologies I work with</p>
             </div>
             <div class="skills-grid">
                 <div class="skill-card">
@@ -253,10 +278,6 @@ Whether it's developing websites, working on electronics projects, or learning n
         <div class="container">
             <div class="section-header">
                 <h2 class="section-title">Featured Projects</h2>
-                <p class="section-subtitle">Some of my recent work</p>
-                <!-- <div style="text-align: center; margin-top: 1rem;">
-                    <a href="projects.html" class="btn btn-primary">View All Projects</a>
-                </div> -->
             </div>
             <div class="projects-grid">
                 <div class="project-card">
@@ -326,6 +347,9 @@ Whether it's developing websites, working on electronics projects, or learning n
                     </div>
                 </div> -->
             </div>
+            <div style="text-align: center; margin-top: 2rem;">
+                <a href="projects.html" class="btn btn-primary">View All Projects</a>
+            </div>
         </div>
     </section>
 
@@ -334,7 +358,6 @@ Whether it's developing websites, working on electronics projects, or learning n
         <div class="container">
             <div class="section-header">
                 <h2 class="section-title">Get In Touch</h2>
-                <p class="section-subtitle">Let's work together on your next project</p>
             </div>
             <div class="contact-content">
                 <div class="contact-info">
@@ -356,7 +379,7 @@ Whether it's developing websites, working on electronics projects, or learning n
                             <p>+1 (555) 123-4567</p>
                         </div>
                     </a> -->
-                    <a href="" target="_blank" class="contact-item">
+                    <div class="contact-item">
                         <div class="contact-icon">
                             <i class="fas fa-map-marker-alt"></i>
                         </div>
@@ -364,7 +387,7 @@ Whether it's developing websites, working on electronics projects, or learning n
                             <h3>Location</h3>
                             <p>Assam, India</p>
                         </div>
-                    </a>
+                    </div>
                 </div>
                 <iframe
                     data-tally-src="https://tally.so/embed/w84ddP?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1"
@@ -379,7 +402,7 @@ Whether it's developing websites, working on electronics projects, or learning n
     <footer class="footer">
         <div class="container">
             <div class="footer-content">
-                <p>&copy; 2025 Rubul Hoque Choudhury. All rights reserved.</p>
+                <p>&copy; <span data-footer-year></span> Rubul Hoque Choudhury. All rights reserved.</p>
                 <div class="footer-social">
                     <a href="mailto:rubulhoquechoudhury8@gmail.com" class="social-link"><i
                             class="fa-solid fa-envelope"></i></a>
@@ -402,6 +425,7 @@ Whether it's developing websites, working on electronics projects, or learning n
         <i class="fas fa-arrow-up"></i>
     </button>
 
+    <script src="footer-year.js"></script>
     <script src="script.js"></script>
 </body>
 

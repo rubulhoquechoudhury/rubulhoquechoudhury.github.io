@@ -1,0 +1,42 @@
+[
+  {
+    "title": "BhumiCare",
+    "slug": "bhumicare",
+    "description": "A land and soil care management application built with modern web technologies.",
+    "image": "",
+    "icon": "fas fa-seedling",
+    "technologies": ["TypeScript", "CSS", "JavaScript"],
+    "githubUrl": "https://github.com/rubulhoquechoudhury/BhumiCare",
+    "liveUrl": ""
+  },
+  {
+    "title": "VehicleTrack",
+    "slug": "vehicle-track",
+    "description": "A vehicle tracking system for real-time monitoring and management of vehicles.",
+    "image": "",
+    "icon": "fas fa-truck",
+    "technologies": ["JavaScript", "CSS", "HTML"],
+    "githubUrl": "https://github.com/rubulhoquechoudhury/VehicleTrack",
+    "liveUrl": ""
+  },
+  {
+    "title": "oneClickConnect",
+    "slug": "one-click-connect",
+    "description": "A one-click connection platform for seamless networking and communication.",
+    "image": "",
+    "icon": "fas fa-plug",
+    "technologies": ["JavaScript", "CSS", "HTML"],
+    "githubUrl": "https://github.com/rubulhoquechoudhury/oneClickConnect",
+    "liveUrl": ""
+  },
+  {
+    "title": "homeMade",
+    "slug": "home-made",
+    "description": "A homemade food and recipe sharing platform connecting home cooks with food lovers.",
+    "image": "",
+    "icon": "fas fa-utensils",
+    "technologies": ["TypeScript", "CSS", "JavaScript"],
+    "githubUrl": "https://github.com/rubulhoquechoudhury/homeMade",
+    "liveUrl": "https://home-made-henna.vercel.app"
+  }
+]
